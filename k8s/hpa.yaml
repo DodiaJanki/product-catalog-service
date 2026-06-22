@@ -13,6 +13,12 @@ spec:
   minReplicas: 4
   maxReplicas: 6
 
+  behavior:
+    scaleUp:
+      stabilizationWindowSeconds: 300
+    scaleDown:
+      stabilizationWindowSeconds: 300
+
   metrics:
     - type: Resource
 
