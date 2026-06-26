@@ -14,7 +14,7 @@ https://hub.docker.com/repository/docker/janki1616/product-catalog
 
 Image Used:
 - product-catalog:v1
-- product-catalog:v2 (for rolling update demo)
+- product-catalog:v3 (for rolling update demo)
 
 ---
 
